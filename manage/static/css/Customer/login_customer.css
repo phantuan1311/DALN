@@ -1,0 +1,124 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    /* background-color: var(--light-color); */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/slider-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 430px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+.container .registration{
+  display: none;
+}
+#check:checked ~ .registration{
+  display: block;
+}
+#check:checked ~ .login{
+  display: none;
+}
+#check{
+  display: none;
+}
+.container .form{
+  padding: 2rem;
+}
+.form header{
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+input{
+   height: 40px;
+   width: 100%;
+   padding: 0 20px;
+   font-size: 14px;
+   margin-bottom: 1rem;
+   border: 1px solid var(--gray-color);
+   border-radius: 6px;
+   outline: none;
+ }
+ .form input:focus{
+   box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+ }
+.form a{
+  font-size: 14px;
+  color: var(--blue-color);
+  text-decoration: none;
+}
+.form a:hover{
+  text-decoration: underline;
+}
+.form input.button{
+  color: #fff;
+  background: var(--turquoise-color);
+  height: 50px;
+  letter-spacing: 1px;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+.form input.button:hover{
+  background: var(--green-color);
+}
+.signup{
+  font-size: 14px;
+  color: var(--black-color);
+  text-align: center;
+}
+.signup label{
+  color: var(--blue-color);
+  cursor: pointer;
+}
+.signup label:hover{
+  text-decoration: underline;
+}
+
+.container{
+  max-width: 600px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.details {
+    font-size: 14px;
+    font-weight: 450;
+}
+input {
+    margin-top: 8px;
+    font-size: 13.5px;
+}
+
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+form .user-details .input-box{
+  width: calc(100% / 2 - 20px);
+}
+.transfer_page {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: var(--black-color);
+}
+.transfer_page a {
+    font-size: 15px;
+}

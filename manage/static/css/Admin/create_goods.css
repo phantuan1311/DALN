@@ -1,0 +1,50 @@
+.upload {
+    display: flex;
+}
+.upload-excel, .upload-file {
+    margin-left: 20px;
+}
+.upload input {
+    color: var(--white-color);
+    border: 0px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+}
+.upload-excel input {
+    background-color: var(--sky-color);
+}
+.upload-excel input:hover {
+    background-color: var(--blue-color);
+}
+.upload-file input {
+    background-color: var(--turquoise-color);
+}
+.upload-file input:hover {
+    background-color: var(--green-color);
+}
+.goods-backgr {
+    margin: 20px;
+    background-color: var(--white-color);
+}
+.goods-backgr th {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: var(--light-color);
+    padding: 8px;
+    width: 180px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+table, td {
+    border-collapse: collapse ;
+}
+th, td {
+    text-align: left;
+    border-bottom: 1px solid rgba(135, 128, 128, 0.2);
+}
+td {
+    color: var(--grey-color);
+    font-size: 14px;
+    padding: 10px;
+}

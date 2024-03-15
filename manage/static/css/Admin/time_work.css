@@ -1,0 +1,65 @@
+.creat_time {
+    margin: 20px;
+}
+.infor_time {
+    display: flex;
+    justify-content: space-between;
+}
+.create_today {
+    font-weight: 500;
+}
+hr {
+    margin: 20px 0 20px 0;
+    opacity: 0.5;
+}
+.infor_time {
+    background-color: var(--white-color);
+    padding: 15px 0 15px 25px;
+    border-radius: 5px;
+}
+.shift label {
+    color: var(--grey-color);
+    font-size: 14px;
+}
+.shift select{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.create_shift input {
+    color: var(--white-color);
+    margin: 20px 100px 20px 0;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: var(--turquoise-color);
+}
+.create_shift input:hover {
+    background-color: var(--green-color);
+}
+
+.list_time {
+    margin: 20px;
+    background-color: var(--white-color);
+}
+.list_time th {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: var(--light-color);
+    padding: 8px;
+    width: 280px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+table, td {
+    border-collapse: collapse ;
+}
+th, td {
+    text-align: left;
+    border-bottom: 1px solid rgba(135, 128, 128, 0.2);
+}
+td {
+    color: var(--grey-color);
+    font-size: 14px;
+    padding: 10px;
+}

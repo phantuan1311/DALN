@@ -1,0 +1,63 @@
+.statistical_list {
+    display: flex;
+}
+.statistical {
+    margin: 0 20px 30px 20px;
+    background-color: var(--white-color);
+    border-radius: 5px;
+}
+.statistical p {
+    margin: 13px 20px;
+    font-size: 15px;
+}
+.statistical_box {
+    padding: 5px 15px;
+    margin: 10px 20px 20px 20px;
+    width: 120px;
+    border: 1px solid var(--grey-color);
+}
+.statistical_box span {
+    color: var(--grey-color);
+    font-size: 13px;
+}
+.notification {
+    margin-left: 20px;
+}
+.tab button{
+    background-color: var(--white-color);
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 3px 20px;
+    border-bottom: 0px;
+}
+button:hover {
+    background-color: var(--light-color);
+}
+.tabcontent {
+    margin-right: 20px;
+    background-color: var(--white-color);
+}
+.tabcontent th {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: var(--light-color);
+    padding: 8px;
+    width: 200px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+table, td {
+    border-collapse: collapse ;
+}
+th, td {
+    text-align: left;
+    border-bottom: 1px solid rgba(135, 128, 128, 0.2);
+}
+td {
+    font-size: 14px;
+    color: var(--grey-color);
+    padding: 10px;
+}
+.tablinks.active {
+    font-weight: 500;
+    background-color: var(--light-color);
+  }
